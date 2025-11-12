@@ -21,7 +21,11 @@ local repository, *origin*, to the *main* branch of the GitHub repository.
 
 I created a branch, modify_readme, using **git checkout -b modify readme**.
 
-I used **git branch** to list all the local branches of the repositoru on my computer.
+I used **git branch** to list all the local branches of the repository on my computer.
 The command **git branch -a** will also list the remote branches. 
 
 I then edited the readme to describe the commands I used to create the local repository and make changes.
+
+Then I used **git add .** and **git commit -m 'Changed readme in a feature branch** to save the changes.
+
+Using **git push origin modify_readme** uploaded all my changes into the modify_readme branch on GitHub.

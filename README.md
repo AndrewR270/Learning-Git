@@ -22,10 +22,25 @@ local repository, *origin*, to the *main* branch of the GitHub repository.
 I created a branch, modify_readme, using **git checkout -b modify readme**.
 
 I used **git branch** to list all the local branches of the repository on my computer.
-The command **git branch -a** will also list the remote branches. 
+The command **git branch -a** will also list the remote branches, or the branches which
+are on the GitHub cloud. 
 
 I then edited the readme to describe the commands I used to create the local repository and make changes.
 
 Then I used **git add .** and **git commit -m 'Changed readme in a feature branch** to save the changes.
 
 Using **git push origin modify_readme** uploaded all my changes into the modify_readme branch on GitHub.
+
+## Merging *modify_readme* into *main*
+
+Branches are made to avoid directly editing *main*.
+
+A *pull request* can be created with a note which asks to merge the branch changes into *main*.
+
+All edited files will be shown. Once approved, **Merge Pull Request** updates the *main* branch.
+
+The feature branch can then be deleted, but I kept it for educational purposes.
+
+**This will only update the remote branches on GitHub.** To update your local workspace, use
+**git checkout main** to return to the *main* branch and then **git pull origin main** to "pull"
+the updated *main* into your local copy.

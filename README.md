@@ -47,4 +47,4 @@ the updated *main* into your local copy.
 
 ## Merge Conflicts (f1 and f2)
 
-This comment was made in branch f2.
+This comment was made on branch f2.

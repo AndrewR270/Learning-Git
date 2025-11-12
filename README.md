@@ -44,3 +44,7 @@ The feature branch can then be deleted, but I kept it for educational purposes.
 **This will only update the remote branches on GitHub.** To update your local workspace, use
 **git checkout main** to return to the *main* branch and then **git pull origin main** to "pull"
 the updated *main* into your local copy.
+
+## Merge Conflicts (f1 and f2)
+
+This comment was made in branch f2.

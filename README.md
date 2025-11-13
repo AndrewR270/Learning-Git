@@ -51,3 +51,9 @@ This comment was made on the f1 branch.
 This comment was made on branch f2.
 
 F2 Neatmike!
+
+## Switching Origin
+
+To switch the repo you are pushing to, use the command:
+
+**git remote set-url origin *https://github.com/CSES-Open-Source/Opportune.git***

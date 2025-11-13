@@ -52,8 +52,12 @@ This comment was made on branch f2.
 
 F2 Neatmike!
 
-## Switching Origin
+## Useful Shortcuts
 
 To switch the repo you are pushing to, use the command:
 
 **git remote set-url origin *[url]***
+
+To push to the current branch you are working on, use:
+
+**git push origin HEAD**

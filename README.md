@@ -56,4 +56,4 @@ F2 Neatmike!
 
 To switch the repo you are pushing to, use the command:
 
-**git remote set-url origin *https://github.com/CSES-Open-Source/Opportune.git***
+**git remote set-url origin *[url]***

@@ -9,13 +9,13 @@ I cloned using SSH, with the command **git clone** [SSH].
 
 I checked to confirm it had been cloned using **git status**.
 
-After editing the README, I used **git add README.md** to update my local repository, *origin*.
+After editing the README, I used **git add README.md** to add the README file to the staging area.
 However, the command **git add .** will update all the files in the repository.
 
-The command **git commit -m 'Added my first command to the README file.'** saved the change with a comment.
+The command **git commit -m 'Added my first command to the README file.'** saved the change on the local repository with a comment.
 
 To copy these changes from my local Git to the GitHub cloud, I used **git push origin main**, to push my
-local repository, *origin*, to the *main* branch of the GitHub repository.
+local repository to the online repo, represented by *origin*, to the *main* branch of the GitHub repository.
 
 ## First Branch (modify_readme)
 
@@ -61,3 +61,7 @@ To switch the repo you are pushing to, use the command:
 To push to the current branch you are working on, use:
 
 **git push origin HEAD**
+
+To check the identity of *origin*, use:
+
+**git remote -v**

@@ -65,3 +65,11 @@ To push to the current branch you are working on, use:
 To check the identity of *origin*, use:
 
 **git remote -v**
+
+To rename a branch (while currently on it), use:
+
+**git branch -m [new name]**
+
+To merge a branch (to your current branch), use:
+
+**git merge [branch to merge]**

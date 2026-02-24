@@ -73,3 +73,7 @@ To rename a branch (while currently on it), use:
 To merge a branch (to your current branch), use:
 
 **git merge [branch to merge]**
+
+To force pull from a remote branch, use:
+
+**git reset --hard origin/branch**
